@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 function revealStudent() {
 	
-	if (clickCounter > theta.length) {
+	if (clickCounter >= theta.length) {
 		//remove children (name and remove button) from the #container.
 		$('#container').children().remove();
 		//make create button again
