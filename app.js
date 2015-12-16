@@ -1,5 +1,4 @@
 var theta = ["Scott", "Kristy", "Altamir", "Anthony", "Brooks", "Charlie", "Chris", "Amber", "Kenzie", "Mark", "Joe", "Scott", "Matthew", "Natalie", "Eric", "Jeremy", "Nathan", "Robby", "Zach", "Sam", "Liz", "Paul"]
-// var thetaIsFaded = [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
 var clickCounter = 0;
 
 $(document).ready(function(){
