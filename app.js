@@ -20,11 +20,12 @@ function revealStudent() {
 		$('#container').append('<button class="create">Create Student</button>');
 		clickCounter = 0;
 	} else {
-		$('#container').append('<p>' + theta[clickCounter] + '<button class="button">Remove</button></p>');
+		$('#container').append('<div></div>');
+		var $el = $('#container').children().last();
+		$el.append("<p>" + theta[clickCounter] + "<button class='button'>Remove</button></p>");
 		$('#container').children().last().hide().slideDown();
 		clickCounter++;
 	}
-
 }
 
 function hideStudent(){

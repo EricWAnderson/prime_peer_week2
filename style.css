@@ -15,8 +15,10 @@ p {
 	height: 80px;
 	text-align: center;
 	box-sizing: border-box;
-	padding-top: 18px;
+	padding-top: 20px;
 	background-color: lightgray;
+	float: left;
+	margin: 10px;
 }
 
 .create{
